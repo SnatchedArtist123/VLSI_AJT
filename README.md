@@ -3,7 +3,7 @@
 ### Diseño Digital VLSI
 ### Grupo: 4
 ###
-### Aguilar Luna Gabriel Daniel @github/GabDn :dragon: :cowboy_hat_face: :taco:
+### Aguilar Luna Gabriel Daniel @GabDn :dragon: :cowboy_hat_face: :taco:
 
 ### Jiménez Juárez Jesús @ :peach: :dash:
 
