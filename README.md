@@ -7,5 +7,5 @@
 
 ### Jiménez Juárez Jesús @chuzmx :peach: :dash:
 
-### Torres Galván Jóse Antonio @SnatchedArtist123 :eggplant:
+### Torres Galván José Antonio @SnatchedArtist123 :eggplant:
 
