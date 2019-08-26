@@ -2,7 +2,7 @@
 Proyectos en VHDL
 Diseño Digital VLSI
 Grupo: 4
-##Aguilar Luna Gabriel Daniel :cowboy_hat_face:
-##Jiménez Juárez Jesús :peach: :dash:
-##Torres Galván Jóse Antonio :eggplant:
+##Aguilar Luna Gabriel Daniel @GabDn :dragon: :cowboy_hat_face: :taco:
+##Jiménez Juárez Jesús @ :peach: :dash:
+##Torres Galván Jóse Antonio @SnatchedArtist123 :eggplant:
 
