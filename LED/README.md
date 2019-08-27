@@ -9,6 +9,9 @@
 
 ### Torres Galván José Antonio @SnatchedArtist123 :eggplant:
 
-######Contador de 8 bits, cuanta de 0 a 255 en binario.
-######Cuenta con un boton de RESET, que sirve para re-iniciar la cuenta, y un de IP, que inicia y pausa la cuenta.
+###### Contador de 8 bits, cuanta de 0 a 255 en binario.
+###### Cuenta con un boton de RESET, que sirve para re-iniciar la cuenta, y un de IP, que inicia y pausa la cuenta.
+
+##### _Es necesario contar con el programa ISE, [link]_
+###### __Abrir la carpeta LED__
 
