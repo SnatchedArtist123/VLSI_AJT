@@ -1,0 +1,38 @@
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT8B_map.ncd CONT8B.ngd CONT8B.pcf 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT8B_map.ncd CONT8B.ngd CONT8B.pcf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT8B_map.ncd CONT8B.ngd CONT8B.pcf 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc CONT8B.ucf -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc CONT8B.ucf -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc CONT8B.ucf -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT8B_map.ncd CONT8B.ngd CONT8B.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CONT8B_map.ncd CONT8B.ncd CONT8B.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CONT8B.twx CONT8B.ncd -o CONT8B.twr CONT8B.pcf -ucf CONT8B.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CONT8B.ut CONT8B.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CONT8B.ut CONT8B.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc CONT8B.ucf -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT8B_map.ncd CONT8B.ngd CONT8B.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CONT8B_map.ncd CONT8B.ncd CONT8B.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CONT8B.twx CONT8B.ncd -o CONT8B.twr CONT8B.pcf -ucf CONT8B.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CONT8B.ut CONT8B.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc CONT8B.ucf -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT8B_map.ncd CONT8B.ngd CONT8B.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CONT8B_map.ncd CONT8B.ncd CONT8B.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CONT8B.twx CONT8B.ncd -o CONT8B.twr CONT8B.pcf -ucf CONT8B.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CONT8B.ut CONT8B.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/CONT8B.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc CONT8B.ucf -p xc6slx9-tqg144-2 CONT8B.ngc CONT8B.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT8B_map.ncd CONT8B.ngd CONT8B.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CONT8B_map.ncd CONT8B.ncd CONT8B.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P1/LED/LED/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CONT8B.twx CONT8B.ncd -o CONT8B.twr CONT8B.pcf -ucf CONT8B.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CONT8B.ut CONT8B.ncd 

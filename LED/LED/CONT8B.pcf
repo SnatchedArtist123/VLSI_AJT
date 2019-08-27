@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Aug 22 15:48:50 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "IP" LOCATE = SITE "P51" LEVEL 1;
+COMP "LEDS<0>" LOCATE = SITE "P123" LEVEL 1;
+COMP "LEDS<1>" LOCATE = SITE "P124" LEVEL 1;
+COMP "LEDS<2>" LOCATE = SITE "P126" LEVEL 1;
+COMP "LEDS<3>" LOCATE = SITE "P127" LEVEL 1;
+COMP "LEDS<4>" LOCATE = SITE "P131" LEVEL 1;
+COMP "LEDS<5>" LOCATE = SITE "P132" LEVEL 1;
+COMP "LEDS<6>" LOCATE = SITE "P133" LEVEL 1;
+COMP "LEDS<7>" LOCATE = SITE "P134" LEVEL 1;
+COMP "mclk" LOCATE = SITE "P56" LEVEL 1;
+COMP "RESET" LOCATE = SITE "P50" LEVEL 1;
+NET "mclk_BUFGP/IBUFG" PERIOD = 15.625 ns HIGH 50%;
+SCHEMATIC END;
+
