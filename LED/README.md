@@ -9,7 +9,7 @@
 
 ### Torres Galván José Antonio @SnatchedArtist123 :eggplant:
 
-#### [Link al video eplicativo](https://youtu.be/uuhlYPeyNvU)
+#### [Link al video explicativo](https://youtu.be/uuhlYPeyNvU)
 
 ##### Contador de 8 bits, cuanta de 0 a 255 en binario.
 ##### Cuenta con un boton de RESET, que sirve para re-iniciar la cuenta, y un de IP, que inicia y pausa la cuenta.
