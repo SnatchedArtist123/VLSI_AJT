@@ -1,0 +1,61 @@
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P2/CORRI.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc corri.ucf -p xc6slx9-tqg144-2 CORRI.ngc CORRI.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CORRI_map.ncd CORRI.ngd CORRI.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off CORRI_map.ncd CORRI.ncd CORRI.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CORRI.twx CORRI.ncd -o CORRI.twr CORRI.pcf -ucf corri.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f CORRI.ut CORRI.ncd 
+netgen -filter "C:/Users/ChuzGallagher/Documents/VLSI/P2/iseconfig/filter.filter" -intstyle ise -ar Structure -tm CORRI -w -dir netgen/synthesis -ofmt vhdl -sim CORRI.ngc CORRI_synthesis.vhd 

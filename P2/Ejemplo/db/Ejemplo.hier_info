@@ -1,0 +1,35 @@
+|Ejemplo
+RST => corrimiento[0].PRESET
+RST => corrimiento[1].ACLR
+RST => corrimiento[2].ACLR
+RST => corrimiento[3].PRESET
+RST => corrimiento[4].PRESET
+RST => corrimiento[5].ACLR
+RST => corrimiento[6].ACLR
+RST => corrimiento[7].PRESET
+DIR => corrimiento.OUTPUTSELECT
+DIR => corrimiento.OUTPUTSELECT
+DIR => corrimiento.OUTPUTSELECT
+DIR => corrimiento.OUTPUTSELECT
+DIR => corrimiento.OUTPUTSELECT
+DIR => corrimiento.OUTPUTSELECT
+DIR => corrimiento.OUTPUTSELECT
+DIR => corrimiento.OUTPUTSELECT
+MCLK => corrimiento[0].CLK
+MCLK => corrimiento[1].CLK
+MCLK => corrimiento[2].CLK
+MCLK => corrimiento[3].CLK
+MCLK => corrimiento[4].CLK
+MCLK => corrimiento[5].CLK
+MCLK => corrimiento[6].CLK
+MCLK => corrimiento[7].CLK
+LEDS[0] <= corrimiento[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDS[1] <= corrimiento[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDS[2] <= corrimiento[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDS[3] <= corrimiento[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDS[4] <= corrimiento[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDS[5] <= corrimiento[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDS[6] <= corrimiento[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDS[7] <= corrimiento[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
