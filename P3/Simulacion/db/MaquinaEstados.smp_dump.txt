@@ -1,0 +1,7 @@
+
+State Machine - |MaquinaEstados|qt
+Name qt.E3 qt.E2 qt.E1 qt.E0 
+qt.E0 0 0 0 0 
+qt.E1 0 0 1 1 
+qt.E2 0 1 0 1 
+qt.E3 1 0 0 1 

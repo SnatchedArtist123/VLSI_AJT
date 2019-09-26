@@ -1,0 +1,25 @@
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P3/P3.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P3/P3.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 P3.ngc P3.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o P3_map.ncd P3.ngd P3.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off P3_map.ncd P3.ncd P3.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml P3.twx P3.ncd -o P3.twr P3.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f P3.ut P3.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f P3.ut P3.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/VLSI/P3/P3.xst" -ofn "C:/Users/ChuzGallagher/Documents/VLSI/P3/P3.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc P3.ucf -p xc6slx9-tqg144-2 P3.ngc P3.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o P3_map.ncd P3.ngd P3.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off P3_map.ncd P3.ncd P3.pcf 
+trce -filter C:/Users/ChuzGallagher/Documents/VLSI/P3/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml P3.twx P3.ncd -o P3.twr P3.pcf -ucf P3.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f P3.ut P3.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/P3.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/P3.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc P3.ucf -p xc6slx9-tqg144-2 "P3.ngc" P3.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o P3_map.ncd P3.ngd P3.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off P3_map.ncd P3.ncd P3.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml P3.twx P3.ncd -o P3.twr P3.pcf -ucf P3.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f P3.ut P3.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/P3.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/P3.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc P3.ucf -p xc6slx9-tqg144-2 "P3.ngc" P3.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o P3_map.ncd P3.ngd P3.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off P3_map.ncd P3.ncd P3.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml P3.twx P3.ncd -o P3.twr P3.pcf -ucf P3.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f P3.ut P3.ncd 

@@ -1,0 +1,47 @@
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 "Mealy.ngc" Mealy.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_map.ncd Mealy.ngd Mealy.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off Mealy_map.ncd Mealy.ncd Mealy.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy.twx Mealy.ncd -o Mealy.twr Mealy.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 "Mealy.ngc" Mealy.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_map.ncd Mealy.ngd Mealy.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off Mealy_map.ncd Mealy.ncd Mealy.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy.twx Mealy.ncd -o Mealy.twr Mealy.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Mealy.ucf -p xc6slx9-tqg144-2 "Mealy.ngc" Mealy.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_map.ncd Mealy.ngd Mealy.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off Mealy_map.ncd Mealy.ncd Mealy.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy.twx Mealy.ncd -o Mealy.twr Mealy.pcf -ucf Mealy.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Mealy.ucf -p xc6slx9-tqg144-2 "Mealy.ngc" Mealy.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_map.ncd Mealy.ngd Mealy.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off Mealy_map.ncd Mealy.ncd Mealy.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy.twx Mealy.ncd -o Mealy.twr Mealy.pcf -ucf Mealy.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Mealy.ucf -p xc6slx9-tqg144-2 "Mealy.ngc" Mealy.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_map.ncd Mealy.ngd Mealy.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off Mealy_map.ncd Mealy.ncd Mealy.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy.twx Mealy.ncd -o Mealy.twr Mealy.pcf -ucf Mealy.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Mealy.ucf -p xc6slx9-tqg144-2 "Mealy.ngc" Mealy.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_map.ncd Mealy.ngd Mealy.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off Mealy_map.ncd Mealy.ncd Mealy.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy.twx Mealy.ncd -o Mealy.twr Mealy.pcf -ucf Mealy.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+xst -intstyle ise -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -ifn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.xst" -ofn "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Mealy.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Mealy.ucf -p xc6slx9-tqg144-2 "Mealy.ngc" Mealy.ngd  
+map -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_map.ncd Mealy.ngd Mealy.pcf 
+par -filter "C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off Mealy_map.ncd Mealy.ncd Mealy.pcf 
+trce -filter {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/iseconfig/filter.filter} -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy.twx Mealy.ncd -o Mealy.twr Mealy.pcf -ucf Mealy.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Mealy.ut Mealy.ncd 

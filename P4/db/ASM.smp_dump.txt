@@ -1,0 +1,30 @@
+
+State Machine - |ASM|edo_sig
+Name edo_sig.E11 edo_sig.E10 edo_sig.E9 edo_sig.E8 edo_sig.E7 edo_sig.E6 edo_sig.E5 edo_sig.E4 edo_sig.E3 edo_sig.E2 edo_sig.E1 edo_sig.E0 
+edo_sig.E0 0 0 0 0 0 0 0 0 0 0 0 0 
+edo_sig.E1 0 0 0 0 0 0 0 0 0 0 1 1 
+edo_sig.E2 0 0 0 0 0 0 0 0 0 1 0 1 
+edo_sig.E3 0 0 0 0 0 0 0 0 1 0 0 1 
+edo_sig.E4 0 0 0 0 0 0 0 1 0 0 0 1 
+edo_sig.E5 0 0 0 0 0 0 1 0 0 0 0 1 
+edo_sig.E6 0 0 0 0 0 1 0 0 0 0 0 1 
+edo_sig.E7 0 0 0 0 1 0 0 0 0 0 0 1 
+edo_sig.E8 0 0 0 1 0 0 0 0 0 0 0 1 
+edo_sig.E9 0 0 1 0 0 0 0 0 0 0 0 1 
+edo_sig.E10 0 1 0 0 0 0 0 0 0 0 0 1 
+edo_sig.E11 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ASM|edo_pres
+Name edo_pres.E11 edo_pres.E10 edo_pres.E9 edo_pres.E8 edo_pres.E7 edo_pres.E6 edo_pres.E5 edo_pres.E4 edo_pres.E3 edo_pres.E2 edo_pres.E1 edo_pres.E0 
+edo_pres.E0 0 0 0 0 0 0 0 0 0 0 0 0 
+edo_pres.E1 0 0 0 0 0 0 0 0 0 0 1 1 
+edo_pres.E2 0 0 0 0 0 0 0 0 0 1 0 1 
+edo_pres.E3 0 0 0 0 0 0 0 0 1 0 0 1 
+edo_pres.E4 0 0 0 0 0 0 0 1 0 0 0 1 
+edo_pres.E5 0 0 0 0 0 0 1 0 0 0 0 1 
+edo_pres.E6 0 0 0 0 0 1 0 0 0 0 0 1 
+edo_pres.E7 0 0 0 0 1 0 0 0 0 0 0 1 
+edo_pres.E8 0 0 0 1 0 0 0 0 0 0 0 1 
+edo_pres.E9 0 0 1 0 0 0 0 0 0 0 0 1 
+edo_pres.E10 0 1 0 0 0 0 0 0 0 0 0 1 
+edo_pres.E11 1 0 0 0 0 0 0 0 0 0 0 1 

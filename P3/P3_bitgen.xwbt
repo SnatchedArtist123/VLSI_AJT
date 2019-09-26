@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ChuzGallagher\Documents\7mo Semestre\VLSI\P3\P3.ncd
+OUTFILE=C:\Users\ChuzGallagher\Documents\7mo Semestre\VLSI\P3\P3.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\ChuzGallagher\Documents\7mo Semestre\VLSI\P3
+LICENSE=WebPack
+USER_INFO=211780365_0_0_136

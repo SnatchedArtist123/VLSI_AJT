@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Sep 16 11:01:56 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "MCLK" LOCATE = SITE "P56" LEVEL 1;
+COMP "A" LOCATE = SITE "P126" LEVEL 1;
+COMP "B" LOCATE = SITE "P134" LEVEL 1;
+COMP "H" LOCATE = SITE "P51" LEVEL 1;
+NET "MCLK_BUFGP/IBUFG" PERIOD = 15.625 ns HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Sep 25 19:34:54 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ASM
+Top-level Entity Name : ASM
+Family : MAX II
+Device : EPM2210F324C3
+Timing Models : Final
+Total logic elements : 102 / 2,210 ( 5 % )
+Total pins : 19 / 272 ( 7 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

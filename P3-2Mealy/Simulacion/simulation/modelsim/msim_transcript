@@ -1,0 +1,62 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do mealy_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Simulacion/mealy.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:08:29 on Sep 16,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/ChuzGallagher/Documents/7mo Semestre/VLSI/P3-2Mealy/Simulacion/mealy.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mealy
+# -- Compiling architecture Behavioral of Mealy
+# End time: 14:08:30 on Sep 16,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.mealy(behavioral)
+# vsim work.mealy(behavioral) 
+# Start time: 14:08:36 on Sep 16,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mealy(behavioral)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/mealy/H \
+sim:/mealy/MCLK \
+sim:/mealy/A \
+sim:/mealy/B \
+sim:/mealy/est_pres \
+sim:/mealy/est_sig
+force -freeze sim:/mealy/MCLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/mealy/H 0 0
+run
+force -freeze sim:/mealy/H 1 0
+run
+run
+force -freeze sim:/mealy/H 0 0
+run
+run
+run
+force -freeze sim:/mealy/H 1 0
+run
+run
+run
+force -freeze sim:/mealy/H 0 0
+run
+run
+force -freeze sim:/mealy/H 1 0
+run
+run
+# End time: 15:17:56 on Sep 16,2019, Elapsed time: 1:09:20
+# Errors: 1, Warnings: 0

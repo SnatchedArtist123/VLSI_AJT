@@ -1,0 +1,13 @@
+|mealy
+H => A.DATAB
+H => B.DATAA
+H => Selector0.IN1
+H => Selector1.IN1
+MCLK => B~reg0.CLK
+MCLK => A~reg0.CLK
+MCLK => est_sig~1.DATAIN
+MCLK => est_pres~1.DATAIN
+A <= A~reg0.DB_MAX_OUTPUT_PORT_TYPE
+B <= B~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
