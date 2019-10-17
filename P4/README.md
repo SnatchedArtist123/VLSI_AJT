@@ -9,11 +9,11 @@
 
 ### Torres Galván José Antonio @SnatchedArtist123 :eggplant:
 
-#### [Link al video explicativo]()
+#### Practica 4
+#### [Link al video explicativo](https://www.youtube.com/watch?v=3UkR0_J_Cxc&t=1s)
 
-##### 
-##### 
+##### Sistema de control de vuelo uav.
+##### El diseño se realiza basado en una carta ASM que se muestra en el video.
+##### Trabaja estados para controlar el funcionamiento.
 
-#### 
-##### 
 

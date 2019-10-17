@@ -8,12 +8,10 @@
 ### Jiménez Juárez Jesús @chuzmx :peach: :dash:
 
 ### Torres Galván José Antonio @SnatchedArtist123 :eggplant:
+#### Practica 5
+#### [Link al video explicativo](https://www.youtube.com/watch?v=m_CgjE2BfLc)
 
-#### [Link al video explicativo]()
-
-##### Practica 5
-##### 
-
-#### 
+##### En esta practica manipulamos el ciclo d trabajo con un bloque divisor de frecuancia para cmbiar la intensidad de un led, y además para manipular el giro de un servo motor.
+#####
 ##### 
 
