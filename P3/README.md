@@ -8,10 +8,7 @@
 ### Jiménez Juárez Jesús @chuzmx :peach: :dash:
 
 ### Torres Galván José Antonio @SnatchedArtist123 :eggplant:
-
+#### Práctica 3
 #### [Link al video explicativo](https://www.youtube.com/watch?v=x0f75o_ZnRs&feature=youtu.be)
-
-##### Práctica 3
 ##### Maquina de Moore
-
 ##### Se implementa una maquina de Moore para simular el llenado de un tanque de agua con dos bombas diferentes.
